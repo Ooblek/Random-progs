@@ -68,7 +68,7 @@ import java.util.concurrent.TimeUnit;
 				userTakes = ni.userInput();
 				if(userTakes<0)
 				{
-					System.out.println("No, you can't return those coins");
+					System.out.println("No, you can't return any coins");
 					continue;
 				}
 				if(userTakes>numberLeft)
